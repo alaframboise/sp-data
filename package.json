@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --port 8001 --static static/ json/class-data-mapped.json"
+    "start": "json-server --port 8001 --static static/ json/class-data-mapped.json",
+    "movies": "json-server --port 8001 --static static/ json/movies-data.json"
   },
   "repository": {
     "type": "git",
