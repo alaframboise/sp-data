@@ -3,98 +3,98 @@
     {
       "id": "1",
       "personId": "201",
-      "accountTypeId": "1",
-      "startingBalance": 1000
+      "startingBalance": 1000,
+      "accountType": "Checking"
     },
     {
       "id": "2",
       "personId": "201",
-      "accountTypeId": "2",
-      "startingBalance": 10000
+      "startingBalance": 10000,
+      "accountType": "Savings"
     },
     {
       "id": "3",
       "personId": "202",
-      "accountTypeId": "1",
-      "startingBalance": 500
+      "startingBalance": 500,
+      "accountType": "Checking"
     },
     {
       "id": "4",
       "personId": "202",
-      "accountTypeId": "2",
-      "startingBalance": 100
+      "startingBalance": 100,
+      "accountType": "Savings"
     },
     {
       "id": "5",
       "personId": "203",
-      "accountTypeId": "1",
-      "startingBalance": 865
+      "startingBalance": 865,
+      "accountType": "Checking"
     },
     {
       "id": "6",
       "personId": "204",
-      "accountTypeId": "1",
-      "startingBalance": 10
+      "startingBalance": 10,
+      "accountType": "Checking"
     },
     {
       "id": "7",
       "personId": "204",
-      "accountTypeId": "2",
-      "startingBalance": 5
+      "startingBalance": 5,
+      "accountType": "Savings"
     },
     {
       "id": "8",
       "personId": "205",
-      "accountTypeId": "1",
-      "startingBalance": 6843
+      "startingBalance": 6843,
+      "accountType": "Checking"
     },
     {
       "id": "9",
       "personId": "205",
-      "accountTypeId": "2",
-      "startingBalance": 3168
+      "startingBalance": 3168,
+      "accountType": "Savings"
     },
     {
       "id": "10",
       "personId": "206",
-      "accountTypeId": "1",
-      "startingBalance": 895
+      "startingBalance": 895,
+      "accountType": "Checking"
     },
     {
       "id": "11",
       "personId": "206",
-      "accountTypeId": "2",
-      "startingBalance": 594
+      "startingBalance": 594,
+      "accountType": "Savings"
     },
     {
       "id": "12",
       "personId": "207",
-      "accountTypeId": "1",
-      "startingBalance": 1686
+      "startingBalance": 1686,
+      "accountType": "Checking"
     },
     {
       "id": "13",
       "personId": "208",
-      "accountTypeId": "1",
-      "startingBalance": 6551
+      "startingBalance": 6551,
+      "accountType": "Checking"
     },
     {
       "id": "14",
       "personId": "209",
-      "accountTypeId": "2",
-      "startingBalance": 12584868
+      "startingBalance": 12584868,
+      "accountType": "Savings"
     },
     {
       "id": "15",
       "personId": "210",
-      "accountTypeId": "1",
-      "startingBalance": 500
+      "startingBalance": 500,
+      "accountType": "Checking"
     },
     {
       "id": "16",
       "personId": "210",
-      "accountTypeId": "2",
-      "startingBalance": 125
+      "startingBalance": 125,
+      "accountType": "Savings"
     }
   ],
   "categories": [
@@ -158,10 +158,12 @@
     {
       "id": "1",
       "payeeName": "DCH Mortgages",
-      "address": "1285 Rezlog Plaza",
-      "city": "Powhatan",
-      "state": "RI",
-      "zip": "02212",
+      "address": {
+        "street": "1285 Rezlog Plaza",
+        "city": "Powhatan",
+        "state": "RI",
+        "zip": "02212"
+      },
       "categoryId": "102",
       "image": null,
       "motto": null,
@@ -171,10 +173,12 @@
     {
       "id": "2",
       "payeeName": "Ill Communication Telephones",
-      "address": "1597 Figole Grove",
-      "city": "Akron",
-      "state": "OH",
-      "zip": "66345",
+      "address": {
+        "street": "1597 Figole Grove",
+        "city": "Akron",
+        "state": "OH",
+        "zip": "66345"
+      },
       "categoryId": "106",
       "image": null,
       "motto": null,
@@ -184,10 +188,12 @@
     {
       "id": "3",
       "payeeName": "Erol's Internet",
-      "address": "453 Loma Linda Junction",
-      "city": "Kansas City",
-      "state": "KS",
-      "zip": "60019",
+      "address": {
+        "street": "453 Loma Linda Junction",
+        "city": "Kansas City",
+        "state": "KS",
+        "zip": "60019"
+      },
       "categoryId": "106",
       "image": null,
       "motto": null,
@@ -197,10 +203,12 @@
     {
       "id": "4",
       "payeeName": "Acme Products, Inc",
-      "address": "1669 Divided Court",
-      "city": "Cheyenne",
-      "state": "WY",
-      "zip": "48324",
+      "address": {
+        "street": "1669 Divided Court",
+        "city": "Cheyenne",
+        "state": "WY",
+        "zip": "48324"
+      },
       "categoryId": "103",
       "image": null,
       "motto": null,
@@ -210,10 +218,12 @@
     {
       "id": "5",
       "payeeName": "Shop-Rite Grocery Store",
-      "address": "311 St. Paul Ave.",
-      "city": "Baltimore",
-      "state": "MD",
-      "zip": "08697",
+      "address": {
+        "street": "311 St. Paul Ave.",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "08697"
+      },
       "categoryId": "103",
       "image": null,
       "motto": null,
@@ -223,10 +233,12 @@
     {
       "id": "6",
       "payeeName": "Sushi Land",
-      "address": "808 Calvert St.",
-      "city": "Baltimore",
-      "state": "MD",
-      "zip": "01848",
+      "address": {
+        "street": "808 Calvert St.",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "01848"
+      },
       "categoryId": "103",
       "image": null,
       "motto": null,
@@ -236,10 +248,12 @@
     {
       "id": "7",
       "payeeName": "Worthless Peon Productions",
-      "address": "125 Scrub Street",
-      "city": "Santa Monica",
-      "state": "CA",
-      "zip": "90111",
+      "address": {
+        "street": "125 Scrub Street",
+        "city": "Santa Monica",
+        "state": "CA",
+        "zip": "90111"
+      },
       "categoryId": "104",
       "image": null,
       "motto": null,
@@ -249,10 +263,12 @@
     {
       "id": "8",
       "payeeName": "The CX Institute",
-      "address": "1715 Greymalkin Lane",
-      "city": "Westchester",
-      "state": "NY",
-      "zip": "10047",
+      "address": {
+        "street": "1715 Greymalkin Lane",
+        "city": "Westchester",
+        "state": "NY",
+        "zip": "10047"
+      },
       "categoryId": "3",
       "image": null,
       "motto": null,
@@ -263,10 +279,12 @@
       "id": "9",
       "payeeName": "Gleichner, Lind and Olson, Ltd.",
       "categoryId": "107",
-      "address": "142 Wune Street",
-      "city": "Deetelu",
-      "state": "WV",
-      "zip": "80587",
+      "address": {
+        "street": "142 Wune Street",
+        "city": "Deetelu",
+        "state": "WV",
+        "zip": "80587"
+      },
       "image": "/images/animals/9.jpg",
       "motto": "Optimized executive frame",
       "version": 1,
@@ -275,10 +293,12 @@
     {
       "id": "10",
       "payeeName": "Klein Cars",
-      "address": "1939 Rolfs Pass",
-      "city": "Baltimore",
-      "state": "MD",
-      "zip": "97394",
+      "address": {
+        "street": "1939 Rolfs Pass",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "97394"
+      },
       "categoryId": "107",
       "image": "/images/technics/4.jpg",
       "motto": "Seamless heuristic process improvement",
@@ -289,10 +309,12 @@
       "id": "11",
       "payeeName": "Spinka Salon",
       "categoryId": "2",
-      "address": "857 Descartes Turnpike",
-      "city": "Palomar",
-      "state": "CA",
-      "zip": "99533",
+      "address": {
+        "street": "857 Descartes Turnpike",
+        "city": "Palomar",
+        "state": "CA",
+        "zip": "99533"
+      },
       "image": "/images/cats/10.jpg",
       "motto": "Monitored encompassing workforce",
       "version": 1,
@@ -301,10 +323,12 @@
     {
       "id": "12",
       "payeeName": "Bauch-Stehr Medical Partners",
-      "address": "671 York Ave",
-      "city": "Baltimore",
-      "state": "MD",
-      "zip": "54952",
+      "address": {
+        "street": "671 York Ave",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "54952"
+      },
       "categoryId": "105",
       "image": "/images/business/3.jpg",
       "motto": "Versatile optimizing support",
@@ -314,10 +338,12 @@
     {
       "id": "13",
       "payeeName": "The Senator Theater",
-      "address": "1689 North York Rd",
-      "city": "Baltimore",
-      "state": "MD",
-      "zip": "48693",
+      "address": {
+        "street": "1689 North York Rd",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "48693"
+      },
       "categoryId": "104",
       "image": "/images/business/5.jpg",
       "motto": "Yesterday's movies tomorrow",
@@ -327,10 +353,12 @@
     {
       "id": "14",
       "payeeName": "Ziener & Ratke, Pediatrics",
-      "address": "1873 Razif Loop",
-      "city": "Fonzopo",
-      "state": "FL",
-      "zip": "55902",
+      "address": {
+        "street": "1873 Razif Loop",
+        "city": "Fonzopo",
+        "state": "FL",
+        "zip": "55902"
+      },
       "categoryId": "105",
       "image": "/images/business/2.jpg",
       "motto": "Multi-lateral grid-enabled toolset",
@@ -340,10 +368,12 @@
     {
       "id": "15",
       "payeeName": "Heathcote Inc",
-      "address": "798 Defarge Point",
-      "city": "Tajuwbi",
-      "state": "WI",
-      "zip": "88464",
+      "address": {
+        "street": "798 Defarge Point",
+        "city": "Tajuwbi",
+        "state": "WI",
+        "zip": "88464"
+      },
       "categoryId": "103",
       "image": "/images/business/3.jpg",
       "motto": "Secured web-enabled Graphical Clothing Interface",
@@ -353,10 +383,12 @@
     {
       "id": "16",
       "payeeName": "Davis, Muller and Marvin",
-      "address": "319 Nazmo Road",
-      "city": "Sohcutzeh",
-      "state": "VT",
-      "zip": "09725",
+      "address": {
+        "street": "319 Nazmo Road",
+        "city": "Sohcutzeh",
+        "state": "VT",
+        "zip": "09725"
+      },
       "categoryId": "104",
       "image": "/images/technics/1.jpg",
       "motto": "Persevering regional moratorium",
@@ -366,10 +398,12 @@
     {
       "id": "17",
       "payeeName": "Deckow-Hand",
-      "address": "1622 Avena Circle",
-      "city": "Nuebaheh",
-      "state": "MA",
-      "zip": "52038",
+      "address": {
+        "street": "1622 Avena Circle",
+        "city": "Nuebaheh",
+        "state": "MA",
+        "zip": "52038"
+      },
       "categoryId": "106",
       "image": "/images/animals/9.jpg",
       "motto": "Cloned directional attitude",
@@ -379,10 +413,12 @@
     {
       "id": "18",
       "payeeName": "Watsica Design",
-      "address": "289 Vaewi Avenue",
-      "city": "Dorgaec",
-      "state": "WY",
-      "zip": "19966",
+      "address": {
+        "street": "289 Vaewi Avenue",
+        "city": "Dorgaec",
+        "state": "WY",
+        "zip": "19966"
+      },
       "categoryId": "102",
       "image": "/images/business/5.jpg",
       "motto": "Streamlined full-range budgetary management",
@@ -393,10 +429,12 @@
       "id": "19",
       "payeeName": "Wayne Enterprises",
       "categoryId": "107",
-      "address": "319 Thomas Wayne Road",
-      "city": "Gotham",
-      "state": "NY",
-      "zip": "10939",
+      "address": {
+        "street": "319 Thomas Wayne Road",
+        "city": "Gotham",
+        "state": "NY",
+        "zip": "10939"
+      },
       "image": "/images/technics/1.jpg",
       "motto": "Persevering regional moratorium",
       "version": 1,
@@ -406,10 +444,12 @@
       "id": "20",
       "payeeName": "Stark Electronics",
       "categoryId": "3",
-      "address": "1146 Kubo Parkway",
-      "city": "Cupertino",
-      "state": "CA",
-      "zip": "96412",
+      "address": {
+        "street": "1146 Kubo Parkway",
+        "city": "Cupertino",
+        "state": "CA",
+        "zip": "96412"
+      },
       "image": "/images/nature/3.jpg",
       "motto": "Function-based logistical paradigm",
       "version": 1,
@@ -419,10 +459,12 @@
       "id": "21",
       "payeeName": "Tyrell Corporation",
       "categoryId": "2",
-      "address": "841 Pewuj Court",
-      "city": "Netseyev",
-      "state": "NY",
-      "zip": "86629",
+      "address": {
+        "street": "841 Pewuj Court",
+        "city": "Netseyev",
+        "state": "NY",
+        "zip": "86629"
+      },
       "image": "/images/technics/7.jpg",
       "motto": "Diverse optimizing paradigm",
       "version": 1,
@@ -432,10 +474,12 @@
       "id": "22",
       "payeeName": "Yoyodyne Propulsion Systems",
       "categoryId": "1",
-      "address": "16 Blue Blazer Way",
-      "city": "Grover's Mill",
-      "state": "NJ",
-      "zip": "07561",
+      "address": {
+        "street": "16 Blue Blazer Way",
+        "city": "Grover's Mill",
+        "state": "NJ",
+        "zip": "07561"
+      },
       "image": "/images/cats/3.jpg",
       "motto": "Synchronised systemic internet solution",
       "version": 1,
@@ -445,10 +489,12 @@
       "id": "23",
       "payeeName": "Goodman, Lieber, Kurtzberg, Holliway",
       "categoryId": "1",
-      "address": "16 W 12 St.",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10015",
+      "address": {
+        "street": "16 W 12 St.",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10015"
+      },
       "image": "/images/animals/9.jpg",
       "motto": null,
       "version": 1,
@@ -458,10 +504,12 @@
       "id": "24",
       "payeeName": "Rodriguez Outfitting",
       "categoryId": "101",
-      "address": "587 Ipobak Terrace",
-      "city": "Alexandria",
-      "state": "VA",
-      "zip": "16097",
+      "address": {
+        "street": "587 Ipobak Terrace",
+        "city": "Alexandria",
+        "state": "VA",
+        "zip": "16097"
+      },
       "image": "/images/nature/6.jpg",
       "motto": "Operative maximized matrices",
       "version": 1,
@@ -471,10 +519,12 @@
       "id": "25",
       "payeeName": "Tower Shields",
       "categoryId": "101",
-      "address": "289 Vaewi Avenue",
-      "city": "Dorkachek",
-      "state": "WY",
-      "zip": "19966",
+      "address": {
+        "street": "289 Vaewi Avenue",
+        "city": "Dorkachek",
+        "state": "WY",
+        "zip": "19966"
+      },
       "image": "/images/business/5.jpg",
       "motto": "Streamlined full-range budgetary management",
       "version": 1,
