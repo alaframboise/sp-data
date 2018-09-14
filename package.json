@@ -1,6 +1,6 @@
 {
   "name": "sp-data",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Speeding Planet's RESTful back-end",
   "main": "server.js",
   "scripts": {

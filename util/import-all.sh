@@ -6,5 +6,5 @@ resources="./resources.txt"
 
 while read -r resource
 do
-  echo mongoimport --jsonArray --db banking --file ../json/"$resource".json
+  mongoimport --jsonArray --db banking --file ../json/"$resource".json
 done < "$resources"
