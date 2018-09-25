@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server -p 8000 json/class-data.json"
+    "start": "json-server -p 8000 json/class-data.json",
+    "delayed" : "json-server -d 2000 -p 8000 json/class-data.json"
   },
   "repository": {
     "type": "git",
